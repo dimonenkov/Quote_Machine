@@ -1,0 +1,19 @@
+
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: blue;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.quoteStyle{
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+}
+
+.active div{
+    background-color:red!important;
+}
