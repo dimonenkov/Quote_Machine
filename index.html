@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<div class="container-fluid">
     <head>
         <meta charset="UTF-8">
         <title>Quote Generator</title>
@@ -13,31 +12,26 @@
 <!--background color changer-->
         <script type='text/javascript'
                 src='http://code.jquery.com/jquery-1.11.0.js'></script>
-
     </head>
+    <div class="container text-center">
 
-</div>
+    <h1>Simple Quote Generator</h1>
 
-<body>
-
-    <h1 class="text-center">Simple Quote Generator</h1>
-
-    <p>
-
-    <div id = "quoteDisplay" class="text-center quoteStyle">
+    <div id = "quoteDisplay" class="text-center">
         <!-- Quotes will display here-->
+    <p id='random_quote'></p>
     </div>
 
-    </p>
 
-   
 
     <!--button color changer-->
-    <input type="button" id="buton" value="New Quote"
-           class="btn btn-primary center-block" onclick="newQuote()" />
+    <input type="button" id="buton"value="New Quote"
+           class="btn btn-success" onclick="randomQuote()"/>
 
-
+    <a class='btn btn-primary' id='tweet' href='#' target='_blank' role='button'><i class="fa fa-twitter"></i>
+        Tweet the Quote</a>
+    </div>
     <!--JS Goes Here-->
-    <script src="javascript.js"></script>
+  <script src="javascript.js"></script>
 </body>
 </html>
