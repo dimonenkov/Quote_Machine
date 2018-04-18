@@ -8,29 +8,31 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="style.css" rel="stylesheet" type="text/css" media="all">
-
-<!--background color changer-->
-        <script type='text/javascript'
-                src='http://code.jquery.com/jquery-1.11.0.js'></script>
     </head>
-    <div class="container text-center">
+
 
     <h1>Simple Quote Generator</h1>
 
-    <div id = "quoteDisplay" class="text-center">
-        <!-- Quotes will display here-->
-    <p id='random_quote'></p>
+    <div class="container text-center">
+    <!-- Quotes will display here-->
+    <div class="jumbotron">
+        <p id='random_quote'></p>
+        <br>
+    </div>
+
     </div>
 
 
+    <div class="container2 text-center margin:top">
+        <!--button color changer-->
+        <input type="button" id="buton"value="New Quote"
+               class="btn btn-success" onclick="randomQuote()"/>
 
-    <!--button color changer-->
-    <input type="button" id="buton"value="New Quote"
-           class="btn btn-success" onclick="randomQuote()"/>
-
-    <a class='btn btn-primary' id='tweet' href='#' target='_blank' role='button'><i class="fa fa-twitter"></i>
-        Tweet the Quote</a>
+        <a class='btn btn-primary' id='tweet' href='#' target='_blank' role='button'><i class="fa fa-twitter"></i>
+            Tweet the Quote</a>
     </div>
+
+
     <!--JS Goes Here-->
   <script src="javascript.js"></script>
 </body>

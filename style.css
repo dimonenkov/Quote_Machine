@@ -1,20 +1,29 @@
-
-body{
-    background-color: lightblue;
+h1 {
+    font-weight: 300;
+    text-align: center;
+    color: navy;
+    line-height: 45px;
+    font-family: "Proxima Nova", "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1{
-    color: blue;
-    font-family: "Times New Roman", Times, serif;
+
+.container {
+    max-width: 750px;
 }
 
-.quoteStyle{
-    color: black;
-    font-family: "Times New Roman", Times, serif;
-    font-size: large;
+
+.container2 {
+    margin-top: 25px;
 }
 
-.active div{
-    background-color:red!important;
+
+.jumbotron {
+    margin:auto;
+    border-radius: 6px;
+    background-color: #DAF7A6;
 }
 
+
+p {
+    margin: 25px;
+}

@@ -19,15 +19,7 @@ $(function() {
 $("button").click(function(){
     randomQuote();
 });
-/*
-//Quotes Changer
-var quotes = [1, 2, 3];
-function newQuote() {
-var randomNumber = Math.floor(Math.random() * (quotes.length));
-document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
 
-}
-*/
 //Color of Background Changer
 var buton=document.getElementById("buton");
 var allchar="0123456789ABCDEF";
@@ -41,3 +33,13 @@ for(var i=0; i<6; i++){
 }
 document.body.style.backgroundColor= "#"+randcol;
 }
+
+/*
+//Quotes Changer
+var quotes = [1, 2, 3];
+function newQuote() {
+var randomNumber = Math.floor(Math.random() * (quotes.length));
+document.getElementById("quoteDisplay").innerHTML = quotes[randomNumber];
+
+}
+*/
